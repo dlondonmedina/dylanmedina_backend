@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>API for Dylan Medina's Website</h1>
+These are instructions for making requests to the API to request projects and eventually blog posts once that is built. 
+<ul>
+    <li><h2>URL</h2>
+        <em>/api/projects</em>
+    </li>
+    <li><h2>Method:</h2>
+        <em>GET</em>
+    </li>
+    <li><h2>URL Params:</h2>
+        <em>Not required. Specifies a project category.</em>
+        <h4>Optional:</h4>
+        category=['teaching', 'developing', 'writing']
+    </li>
+</ul>
+{% endblock %}
